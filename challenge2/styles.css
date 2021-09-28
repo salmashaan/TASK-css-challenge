@@ -1,0 +1,45 @@
+.card-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background {
+  position: absolute;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10%;
+  padding: 50px;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+}
+
+.circle-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.shadow-box {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+}
