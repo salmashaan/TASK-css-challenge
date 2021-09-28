@@ -1,9 +1,27 @@
 /* Add your code in each class */
 .container {
-}
-.head {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(241, 230, 179);
 }
 
+.head {
+  background-color: rgb(238, 155, 1);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: cursive;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.list {
+  position: absolute;
+  clip: rect(0px, 400px, 255px, 0px);
+  overflow: auto;
+  white-space: nowrap;
+}
 .row {
   /* .row is used in ./index.js not in the html filee */
 }
