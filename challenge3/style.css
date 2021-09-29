@@ -2,28 +2,30 @@
 .container {
   height: 300px;
   width: 400px;
-  background-color: rgb(241, 230, 179);
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .head {
-  background-color: rgb(238, 155, 1);
+  background-color: rgb(69, 86, 182);
   color: white;
-  padding: 10px;
   text-align: center;
-  font-family: cursive;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+  padding: 1px;
 }
 
-.list {
-  position: absolute;
-  clip: rect(0px, 400px, 255px, 0px);
-  overflow: auto;
-  white-space: nowrap;
+h3 {
+  font-family: cursive;
 }
+
 .row {
-  /* .row is used in ./index.js not in the html filee */
+  /* .row is used in ./index.js not in the html file */
+  padding: 10px;
+  background-color: rgb(112, 112, 112);
+  color: rgb(214, 214, 214);
+  font-family: sans-serif;
 }
 
 /* This is a gift - Does not need editing */
