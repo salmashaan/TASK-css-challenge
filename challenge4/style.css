@@ -26,8 +26,8 @@ body {
 }
 
 .movie-details-container {
-  text-align: left;
-  display: flex;
+  text-align: center;
+  display: block;
 }
 
 .descriptions {
@@ -35,6 +35,7 @@ body {
 }
 
 .movie-title {
+  text-align: left;
   color: white;
   font-family: "Arial Narrow Bold", sans-serif;
 }
